@@ -1,0 +1,26 @@
+# Dependências
+node_modules/
+package-lock.json
+
+# Sessões e Autenticação (SENSÍVEL)
+gemini_session/
+baileys_auth/
+.env
+
+# Memória e Dados Locais do Bot
+memoria/*.json
+bot_telemetry.json
+config_node.json
+
+# Logs e Temporários
+*.log
+*.db
+*.db-journal
+__pycache__/
+*.pyc
+
+# IDEs e Sistema
+.vscode/
+.idea/
+.DS_Store
+*.lock
